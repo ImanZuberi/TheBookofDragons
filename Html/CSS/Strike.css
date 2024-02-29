@@ -1,0 +1,109 @@
+body{
+    background-color:rgb(34, 7, 43);
+}
+
+
+.menu-area {
+    position:fixed;
+    background-color: rgb(0, 0, 0);
+    top:0;
+    left:0;
+    width:100%;
+    height: 30px;
+    opacity: 30%;
+    transition:2s;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    color:  rgb(196, 196, 196);
+}
+
+
+#image1 {
+    position: absolute;
+    margin-left: 450px;
+    width: 100px; 
+    height: auto; 
+    margin-top: -70px;
+}
+#image2 {
+    position: absolute;
+    margin-left: 870px;    
+    transform: scaleX(-1);
+    transform: scaleY(-1);
+    width: 100px;
+    height: auto;
+    margin-top: -70px;
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+}
+#p-1 { 
+    color:  rgb(104, 104, 104);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+#h1{
+    font-size: 40px;
+    margin-left: 50px;
+    color:  rgb(196, 196, 196);
+}
+
+#glist {
+    margin-left: 50px;
+    line-height: 15px;
+    color:  rgb(196, 196, 196);
+}
+
+#Skrillimg {
+    width: 500px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+
+#NightFuryimg {
+    width: 700px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: -70px;
+}
+
+#h2{
+    font-size: 20;
+    font-weight: bold;
+    margin-left: 0px;
+    color:  rgb(196, 196, 196);
+}
+
+.side-by-side {
+    float: left;
+    width: 30%; /* Adjust the width as needed */
+
+#stats1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(157, 155, 160);
+}
+
+#list3{
+   margin-left:-35px ;
+   text-align: center;
+list-style: none;
+color: rgb(157, 155, 160);    
+}}
+
+#div2{
+    background-color: rgb(53, 40, 85);
+    width: 200px;
+}
