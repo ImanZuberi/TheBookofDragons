@@ -1,7 +1,18 @@
 body {
-    background-color:rgb(59, 55, 61);
+    background-color: #2d2d31;
 }
-
+#background{
+.background-container {
+    background-image: url("paper.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}}
+@font-face {
+    font-family: Norse;
+    src: url(../fonts/Norse.otf);
+}
 
 .menu-area {
     position:fixed;
@@ -25,6 +36,8 @@ header {
     text-align: center;
     width: 100%;
     background-color: rgb(33, 29, 44);
+    font-family: Norse ;
+    margin-top: 10px;
     }
 
 #everything {
@@ -36,69 +49,101 @@ header {
 }
 
 #div1 {
-height: 350px;
+height: 300px;
 width: 300px;
-background-color: rgb(69, 132, 134);
+background-color:rgb(124, 106, 88);
 text-align: center;
-border: 4px solid #094a59;
-
-
+border: 4px solid rgb(69, 39, 9);
+overflow: hidden;
+#bclass {
+    height: 300px;
+    width: auto;
+    margin-left: -125px;}
 }
 
 #div2 {
-height: 350px;
+height: 300px;
 width: 300px;
 background-color: rgb(90, 117, 144);
 text-align: center;
 border: 4px solid #042449;
-
+overflow: hidden;
+#mclass {
+    height: 300px;
+    width: auto;
+    margin-left:-110px;}
 }
 
 #div3 {
-height: 350px;
+height: 300px;
 width: 300px;
 background-color: rgb(62, 9, 80);
 text-align: center;
 border: 4px solid #1c093b;
-
+overflow: hidden;
+#skclass {
+    height: 300px;
+    width: auto;
+    margin-left: -120px;}
 }
 
 #div4 {
-height: 350px;
+height: 300px;
 width: 300px;
 background-color: rgb(8, 120, 124);
 text-align: center;
 border: 4px solid #00535a;
-
+overflow: hidden;
+#shclass {
+    height: 300px;
+    width: auto;
+    margin-left: -125px;}
 }
 
 #div5 {
-height: 350px;
+height: 300px;
 width: 300px;
 background-color: rgb(111, 111, 36);
 text-align: center;
 border: 4px solid #4e4508;
+overflow: hidden;
+#stclass {
+    height: 300px;
+    width: auto;
+    margin-left: -125px;}
     }
 
 #div6 {
-height: 350px;
+height: 300px;
 width: 300px;
 background-color: rgb(15, 128, 109);
 text-align: center;
 border: 4px solid #115e50;
- 
+overflow: hidden;
+#tdclass {
+    height: 300px;
+    width: auto;
+    margin-left: -125px;}
     }
 
+#divblank {
+        height: 300px;
+        width: 300px;
+            }
 
 #div7 {
-height: 350px;
+height: 300px;
 width: 300px;
 background-color: rgb(20, 68, 38);
 text-align:center;
 border: 4px solid #03260d;
-
+overflow: hidden;
+#trclass {
+    height: 300px;
+    width: auto;
+    margin-left: -125px;}
     }
 
 div {
-margin-top: 20px;
+margin-top: 30px;
 }

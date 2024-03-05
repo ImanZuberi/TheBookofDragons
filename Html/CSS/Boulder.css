@@ -9,32 +9,50 @@ body{
     left:0;
     width:100%;
     height: 30px;
-    opacity: 60%;
+    opacity: 90%;
     transition:2s;
+}
+@font-face {
+    font-family: Norse;
+    src: url(../fonts2/Norse.Botf);
+}
+@font-face {
+    font-family: Norse reg;
+    src: url(../fonts2/Norse.otf);
 }
 
 .active {
     height: 100vh;
 }
 
+#ch {
+    text-align: right;
+    margin-right: 30px;
+    margin-top:-23px ;
+    color: antiquewhite;
+
+}
+
 header {
     text-align: center;
-    font-size: 50px;
-    color: black;
+    font-size: 100px;
+    color:rgb(69, 39, 9);
+    margin-top: 30px;
+    font-family: Norse;
 }
 
 #image1 {
     position: absolute;
-    margin-left: 450px;
+    margin-left: 380px;
     width: 100px; 
     height: auto; 
-    margin-top: -70px;
+    margin-top: -110px;
     
 }
 #image2 {
     position: absolute;
-    margin-top: -70px;
-    margin-left: 870px;
+    margin-top: -110px;
+    margin-left: 950px;
     transform: scaleX(-1);
     transform: scaleY(-1);
     width: 100px;
@@ -58,6 +76,7 @@ header {
 #h1{
     font-size: 40px;
     margin-left: 50px;
+    font-family: Norse;
 }
 
 #glist {
@@ -90,6 +109,7 @@ header {
     font-size: 20;
     font-weight: bold;
     margin-left: 0px;
+    font-family: Norse;
 }
 #everything {
     height: 100%;
@@ -105,6 +125,7 @@ header {
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
+    font-family: Norse;
 }
 
 #list3{
@@ -119,12 +140,34 @@ list-style: none;
     width: 200px;
 }
 
-.appear {
-     position: absolute;
-     text-align: center;
-     top: 200px;
-     justify-content: center;
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 100;}
+
 }
+
+.appear {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    justify-content: center;
+    color: rgb(165, 142, 119);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 50px;
+    font-family: Norse reg;
+
+}
+
+
 
 .disappear {
     opacity: 0;

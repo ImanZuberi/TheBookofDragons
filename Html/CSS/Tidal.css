@@ -14,27 +14,37 @@ body{
     transition:2s;
 }
 
+.active {
+    height: 100vh;
+}
+@font-face {
+    font-family: Norse;
+    src: url(../fonts2/Norse.Botf);
+}
+
 header {
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
     color: rgb(13, 20, 122);
+    margin-top: 30px;
+    font-family: Norse;
 }
 
 #image1 {
     position: absolute;
-    margin-left: 450px;
+    margin-left: 380px;
     width: 100px; 
     height: auto;
-    margin-top: -60px;
+    margin-top: -110;
 }
 #image2 {
     position: absolute;
-    margin-left: 870px;     
+    margin-left: 950px;     
     transform: scaleX(-1);
     transform: scaleY(-1);
     width: 100px;
     height: auto;
-    margin-top: -60px;
+    margin-top: -110px;
     -webkit-transform: scaleX(-1);
     -moz-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
@@ -54,6 +64,7 @@ header {
 #h1{
     font-size: 40px;
     margin-left: 50px;
+    font-family: Norse;
 }
 
 #glist {
@@ -79,6 +90,8 @@ header {
     font-size: 20;
     font-weight: bold;
     margin-left: 0px;
+    font-family: Norse;
+
 }
 
 .side-by-side {
@@ -90,6 +103,8 @@ header {
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
+    font-family: Norse;
+
 }
 
 #list3{
