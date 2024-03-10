@@ -1,6 +1,44 @@
 body{
     background-color:rgb( 208,181,154);
+    background-image: url("../Images/RockBackground.webp");
+        background-size: cover;
+        background-repeat: repeat;
+        background-blend-mode:multiply;
+    }
+
+
+    .home-button {
+        
+        display: block; 
+        margin: 20px; 
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+#home{
+    height: 150px;
+    width: auto;
 }
+#top{
+    width: 100px;
+    height:auto;
+}
+
+#empty {
+    width: 2500px;
+    height: auto;
+}
+
+#top2{
+    width: 1250px;
+    height:auto;
+}
+
+
+.beside{
+   float: left;
+    width: 10%;
+}
+
 
 .menu-area {
     position:fixed;
@@ -21,6 +59,7 @@ body{
     src: url(../fonts2/Norse.otf);
 }
 
+
 .active {
     height: 100vh;
 }
@@ -30,20 +69,23 @@ body{
     margin-right: 30px;
     margin-top:-23px ;
     color: antiquewhite;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
 header {
     text-align: center;
     font-size: 100px;
-    color:rgb(69, 39, 9);
+    color:rgb(148, 133, 119);
     margin-top: 30px;
     font-family: Norse;
 }
 
 #image1 {
     position: absolute;
-    margin-left: 380px;
+    margin-left: 280px;
     width: 100px; 
     height: auto; 
     margin-top: -110px;
@@ -52,7 +94,7 @@ header {
 #image2 {
     position: absolute;
     margin-top: -110px;
-    margin-left: 950px;
+    margin-left: 875px;
     transform: scaleX(-1);
     transform: scaleY(-1);
     width: 100px;
@@ -70,31 +112,38 @@ header {
     margin-top: 100px;
     margin-left: 80px;
     margin-right: 80px;
+    
 }
 
 
 #h1{
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 50px;
     font-family: Norse;
+    color: rgb(123, 68, 1);
 }
 
 #glist {
     margin-left: 50px;
+    font-size: 25px;
     line-height: 15px;
+    font-family: "edding-780", sans-serif;
+    font-weight: 70;
+    font-style: normal;
+    color: rgb(160, 160, 159);
 }
 
 #GronckleImg {
-    width: 500px;
+    width: 600px;
     height: auto;
     margin-left: 200px;
     margin-top: -100px;
 }
 
 #WhisDeath {
-    width: 500px;
+    width: 650px;
     height: auto;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: -100px;
 }
 
@@ -106,7 +155,7 @@ header {
 }
 
 #h2{
-    font-size: 20;
+    font-size: 30;
     font-weight: bold;
     margin-left: 0px;
     font-family: Norse;
@@ -118,7 +167,7 @@ header {
 
 .side-by-side {
     float: left;
-    width: 30%; /* Adjust the width as needed */
+    width: 30%;
 
 #stats1{
     font-size: 20px;
@@ -131,7 +180,12 @@ header {
 #list3{
    margin-left:-35px ;
    text-align: center;
-list-style: none;
+    list-style: none;
+    font-family: "edding-780", sans-serif;
+    font-weight: 70;
+    font-style: normal;
+    font-size: 20px;
+
     
 }}
 
@@ -153,17 +207,21 @@ list-style: none;
     animation-duration: 1s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
-    position: absolute;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
     text-align: center;
     top: 200px;
     justify-content: center;
     color: rgb(165, 142, 119);
     text-align: center;
     margin-top: 50px;
-    margin-left: 80px;
+    margin-left: 0px;
     margin-right: 80px;
-    font-size: 50px;
-    font-family: Norse reg;
+    font-size: 45px;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
@@ -171,4 +229,51 @@ list-style: none;
 
 .disappear {
     opacity: 0;
+}
+
+#block2 {
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    height: 610px;
+    width: 1380px;
+    background-color: rgb(48, 37, 28);
+    z-index: -10;
+    opacity: 80%;
+    border-radius: 30px;
+}
+
+#block1 {
+    position: absolute;
+    top: 870px;
+    left: 30px;
+    height: 620px;
+    width: 1380px;
+    background-color: rgb(48, 37, 28);
+    z-index: -10;
+    opacity: 80%;
+    border-radius: 30px;
+}
+
+#block3 {
+    position: absolute;
+    top: 1550px;
+    left: 30px;
+    height: 590px;
+    width: 1380px;
+    background-color: rgb(48, 37, 28);
+    z-index: -10;
+    opacity: 80%;
+    border-radius: 30px;
+}
+#block4 {
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    height: 100px;
+    width: 730px;
+    background-color: rgb(34, 24, 15);
+    z-index: -10;
+    opacity: 80%;
+    border-radius: 30px;
 }

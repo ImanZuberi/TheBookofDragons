@@ -1,5 +1,43 @@
 body{
-    background-color:rgb(0, 128, 128);
+    
+    background-image: url("../Images/waterbg.webp");
+        background-size: cover;
+        background-repeat: repeat; 
+        background-color:rgb(0, 128, 128);
+        background-blend-mode: multiply;
+
+}
+
+.home-button {
+        
+    display: block; 
+    margin: 20px; 
+    margin-left: -30px;
+    margin-top: 20px;
+}
+#home{
+height: 150px;
+width: auto;
+}
+#top{
+width: 100px;
+height:auto;
+}
+
+#empty {
+width: 2500px;
+height: auto;
+}
+
+#top2{
+width: 1250px;
+height:auto;
+}
+
+
+.beside{
+float: left;
+width: 10%;
 }
 
 
@@ -10,7 +48,7 @@ body{
     left:0;
     width:100%;
     height: 30px;
-    opacity: 60%;
+    opacity: 90%;
     transition:2s;
 }
 
@@ -22,24 +60,34 @@ body{
     src: url(../fonts2/Norse.Botf);
 }
 
+#ch {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 5px ;
+    color: antiquewhite;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 header {
     text-align: center;
     font-size: 100px;
     color: rgb(13, 20, 122);
-    margin-top: 30px;
+    margin-top: 50px;
     font-family: Norse;
 }
 
 #image1 {
     position: absolute;
-    margin-left: 380px;
+    margin-left: 280px;
     width: 100px; 
     height: auto;
     margin-top: -110;
 }
 #image2 {
     position: absolute;
-    margin-left: 950px;     
+    margin-left: 875px;     
     transform: scaleX(-1);
     transform: scaleY(-1);
     width: 100px;
@@ -69,7 +117,11 @@ header {
 
 #glist {
     margin-left: 50px;
+    font-size: 25px;
     line-height: 15px;
+    font-family: "edding-780", sans-serif;
+    font-weight: 70;
+    font-style: normal;
 }
 
 #SCimg {
@@ -108,9 +160,13 @@ header {
 }
 
 #list3{
-   margin-left:-35px ;
-   text-align: center;
-list-style: none;
+    margin-left:-35px ;
+    text-align: center;
+     list-style: none;
+     font-family: "edding-780", sans-serif;
+     font-weight: 70;
+     font-style: normal;
+     font-size: 20px;
     
 }}
 
@@ -118,4 +174,66 @@ list-style: none;
     background-color: rgb(113, 156, 171);
     width: 200px;
 }
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 100;}
+
+}
+
+.appear {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    top: 200px;
+    justify-content: center;
+    color: rgb(243, 243, 248);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -110px;
+    margin-right: 80px;
+    font-size: 45px;
+    font-family: Norse reg;
+    font-size: 45px;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.disappear {
+    opacity: 0;
+}
+
+#block1 {
+    position: absolute;
+    top: 900px;
+    left: 30px;
+    height: 650px;
+    width: 1380px;
+    background-color: rgb(59, 115, 137);
+    z-index: -10;
+    opacity: 70%;
+    border-radius: 30px;
+}
+
+#block2 {
+    position: absolute;
+    top: 245px;
+    left: 30px;
+    height: 620px;
+    width: 1380px;
+    background-color: rgb(59, 115, 137);
+    z-index: -10;
+    opacity: 70%;
+    border-radius: 30px;
+}
+
 

@@ -1,7 +1,43 @@
 body{
     background-color:rgb(34, 7, 43);
+    background-image: url("../Images/strikebg.webp");
+    background-size: cover;
+    background-repeat: repeat; 
+    background-blend-mode:multiply;
 }
 
+
+.home-button {
+        
+    display: block; 
+    margin: 20px; 
+    margin-left: -30px;
+    margin-top: 20px;
+}
+#home{
+height: 150px;
+width: auto;
+}
+#top{
+width: 100px;
+height:auto;
+}
+
+#empty {
+width: 2500px;
+height: auto;
+}
+
+#top2{
+width: 1250px;
+height:auto;
+}
+
+
+.beside{
+float: left;
+width: 10%;
+}
 
 .menu-area {
     position:fixed;
@@ -10,7 +46,7 @@ body{
     left:0;
     width:100%;
     height: 30px;
-    opacity: 30%;
+    opacity: 90%;
     transition:2s;
 }
 
@@ -20,6 +56,17 @@ body{
 @font-face {
     font-family: Norse;
     src: url(../fonts2/Norse.Botf);
+}
+
+#ch {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 4px ;
+    color: antiquewhite;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 header {
@@ -33,14 +80,14 @@ header {
 
 #image1 {
     position: absolute;
-    margin-left: 380px;
+    margin-left: 280px;
     width: 100px; 
     height: auto; 
     margin-top: -110px;
 }
 #image2 {
     position: absolute;
-    margin-left: 950px;    
+    margin-left: 875px;    
     transform: scaleX(-1);
     transform: scaleY(-1);
     width: 100px;
@@ -62,17 +109,21 @@ header {
 
 
 #h1{
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 50px;
-    color:  rgb(196, 196, 196);
+    color:  rgb(125, 26, 119);
     font-family: Norse;
 
 }
 
 #glist {
     margin-left: 50px;
+    font-size: 25px;
     line-height: 15px;
     color:  rgb(196, 196, 196);
+    font-family: "edding-780", sans-serif;
+    font-weight: 70;
+    font-style: normal;
 }
 
 #Skrillimg {
@@ -115,11 +166,76 @@ header {
 #list3{
    margin-left:-35px ;
    text-align: center;
-list-style: none;
-color: rgb(157, 155, 160);    
+    list-style: none;
+    color: rgb(157, 155, 160);  
+    font-family: "edding-780", sans-serif;
+    font-weight: 70;
+    font-style: normal;
+    font-size: 20px;  
 }}
 
 #div2{
     background-color: rgb(53, 40, 85);
     width: 200px;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 100;}
+
+}
+
+.appear {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    top: 200px;
+    justify-content: center;
+    color: rgb(189, 183, 189);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -110px;
+    margin-right: 80px;
+    font-size: 45px;
+    font-family: Norse reg;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.disappear {
+    opacity: 0;
+}
+
+
+#block2 {
+    position: absolute;
+    top: 270px;
+    left: 30px;
+    height: 600px;
+    width: 1380px;
+    background-color: rgb(49, 8, 37);
+    z-index: -10;
+    opacity: 70%;
+    border-radius: 30px;
+}
+
+#block1 {
+    position: absolute;
+    top: 930px;
+    left: 30px;
+    height: 660px;
+    width: 1380px;
+    background-color:rgb(49, 8, 37);
+    z-index: -10;
+    opacity: 80%;
+    border-radius: 30px;
 }

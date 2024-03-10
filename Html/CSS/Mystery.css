@@ -1,6 +1,43 @@
 body{
     background-color:rgb(114, 141, 141);
+    background-image: url("../Images/thunderbg.webp");
+    background-size: cover;
+    background-repeat: repeat; 
+    background-blend-mode: multiply;
 }
+
+.home-button {
+        
+    display: block; /* Make the link a block-level element */
+    margin: 20px; /* Add margin space around the button */
+    margin-left: -30px;
+    margin-top: 20px;
+}
+#home{
+height: 150px;
+width: auto;
+}
+#top{
+width: 100px;
+height:auto;
+}
+
+#empty {
+width: 2500px;
+height: auto;
+}
+
+#top2{
+width: 1250px;
+height:auto;
+}
+
+
+.beside{
+float: left;
+width: 10%;
+}
+
 
 .menu-area {
     position:fixed;
@@ -26,6 +63,9 @@ body{
     margin-right: 30px;
     margin-top: 4px;
     color: antiquewhite;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
@@ -38,14 +78,14 @@ header {
 
 #image1 {
     position: absolute;
-    margin-left: 380px;
+    margin-left: 280px;
     width: 100px; 
     height: auto; 
     margin-top: -110px;
 }
 #image2 {
     position: absolute;
-    margin-left: 950px;
+    margin-left: 875px;
     transform: scaleX(-1);
     transform: scaleY(-1);
     width: 100px;
@@ -68,35 +108,34 @@ header {
 
 
 #h1{
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 50px;
     font-family: Norse;
+    color: rgb(55, 19, 89);
 }
 
 #glist {
     margin-left: 50px;
+    font-size: 25px;
     line-height: 15px;
+    font-family: "edding-780", sans-serif;
+    font-weight: 70;
+    font-style: normal;
 }
 
 #Changeimg {
-    width: 450px;
+    width: 800px;
     height: auto;
-    margin-left: 200px;
-    margin-top: -40px;
+    margin-left: 0px;
+    margin-top: -100px;
 }
 
-#Boneimg {
-    width: 600px;
-    height: auto;
-    margin-left: 100px;
-    margin-top: -40px;
-}
 
 #DSimg {
-    width: 500px;
+    width: 800px;
     height: auto;
-    margin-left: 200px;
-    margin-top: -40px;
+    margin-left: 60px;
+    margin-top: -100px;
 }
 
 #h2{
@@ -108,7 +147,7 @@ header {
 
 .side-by-side {
     float: left;
-    width: 30%; /* Adjust the width as needed */
+    width: 30%; 
 
 #stats1{
     font-size: 20px;
@@ -121,7 +160,11 @@ header {
 #list3{
    margin-left:-35px ;
    text-align: center;
-list-style: none;
+    list-style: none;
+    font-family: "edding-780", sans-serif;
+    font-weight: 70;
+    font-style: normal;
+    font-size: 20px;
     
 }}
 
@@ -142,22 +185,49 @@ list-style: none;
     animation-duration: 1s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
-    position: absolute;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
     text-align: center;
     top: 200px;
     justify-content: center;
     color: rgb(114, 127, 139);
     text-align: center;
     margin-top: 50px;
-    margin-left: 80px;
+    margin-left: -110px;
     margin-right: 80px;
-    font-size: 50px;
-    font-family: Norse reg;
+    font-size: 45px;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
-
-
 .disappear {
     opacity: 0;
+}
+
+
+#block2 {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    height: 670px;
+    width: 1380px;
+    background-color: rgb(41, 80, 119);
+    z-index: -10;
+    opacity: 70%;
+    border-radius: 30px;
+}
+
+#block1 {
+    position: absolute;
+    top: 1000px;
+    left: 30px;
+    height: 650px;
+    width: 1380px;
+    background-color: rgb(41, 80, 119);
+    z-index: -10;
+    opacity: 80%;
+    border-radius: 30px;
 }

@@ -1,7 +1,43 @@
 body{
     background-color:rgb(158, 132, 39);
+    background-image: url("../Images/stobg.webp");
+    background-size: cover;
+    background-repeat: repeat; 
+    background-blend-mode: normal;
 }
 
+
+.home-button {
+        
+    display: block; 
+    margin: 20px; 
+    margin-left: -30px;
+    margin-top: 20px;
+}
+#home{
+height: 150px;
+width: auto;
+}
+#top{
+width: 100px;
+height:auto;
+}
+
+#empty {
+width: 2500px;
+height: auto;
+}
+
+#top2{
+width: 1250px;
+height:auto;
+}
+
+
+.beside{
+float: left;
+width: 10%;
+}
 
 .menu-area {
     position:fixed;
@@ -10,7 +46,7 @@ body{
     left:0;
     width:100%;
     height: 30px;
-    opacity: 60%;
+    opacity: 90%;
     transition:2s;
 }
 
@@ -22,17 +58,28 @@ body{
     src: url(../fonts2/Norse.Botf);
 }
 
+
+#ch {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 5px ;
+    color: antiquewhite;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 header {
     text-align: center;
     font-size: 100px;
-    color: rgb(0, 0, 0);
+    color: rgb(128, 0, 0);
     margin-top: 30px;
     font-family: Norse;
 }
 
 #image1 {
     position: absolute;
-    margin-left: 380px;
+    margin-left: 280px;
     width: 100px; 
     height: auto; 
     margin-top: -110px;
@@ -40,7 +87,7 @@ header {
 
 #image2 {
     position: absolute;
-    margin-left: 950px;  
+    margin-left: 875px;  
     transform: scaleX(-1);
     transform: scaleY(-1);
     width: 100px;
@@ -62,15 +109,21 @@ header {
 }
 
 #h1{
-    font-size: 40px;
+    font-size: 50px;
     margin-left: 50px;
     font-family: Norse;
+    color: rgb(135, 11, 0);
 
 }
 
 #glist {
     margin-left: 50px;
+    font-size: 25px;
     line-height: 15px;
+    font-family: "edding-780", sans-serif;
+    font-weight: 70;
+    font-style: normal;
+    color: rgb(117, 96, 27);
 }
 
 #MNimg {
@@ -91,7 +144,7 @@ header {
     width: 500px;
     height: auto;
     margin-left: 200px;
-    margin-top: -100px;
+    margin-top: -60px;
 }
 
 
@@ -105,7 +158,7 @@ header {
 
 .side-by-side {
     float: left;
-    width: 30%; /* Adjust the width as needed */
+    width: 30%;
 
 #stats1{
     font-size: 20px;
@@ -119,11 +172,90 @@ header {
 #list3{
    margin-left:-35px ;
    text-align: center;
-list-style: none;
+    list-style: none;
+    font-family: "edding-780", sans-serif;
+    font-weight: 70;
+    font-style: normal;
+    font-size: 20px;
     
 }}
 
 #div2{
     background-color: rgb(107, 88, 24);
     width: 200px;
+}
+
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 100;}
+
+}
+
+.appear {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    top: 200px;
+    justify-content: center;
+    color:  rgb(55, 42, 0);
+    text-align: center;
+    margin-top: 45px;
+    margin-left: -110px;
+    margin-right: 80px;
+    font-size: 45px;
+    font-family: Norse reg;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+.disappear {
+    opacity: 0;
+}
+
+
+#block2 {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    height: 730px;
+    width: 1380px;
+    background-color: rgb(40, 21, 7);
+    z-index: -10;
+    opacity: 90%;
+    border-radius: 30px;
+}
+
+#block1 {
+    position: absolute;
+    top: 1000px;
+    left: 30px;
+    height: 560px;
+    width: 1380px;
+    background-color:rgb(40, 21, 7);
+    z-index: -10;
+    opacity: 80%;
+    border-radius: 30px;
+}
+
+#block3 {
+    position: absolute;
+    top: 1580px;
+    left: 30px;
+    height: 570px;
+    width: 1380px;
+    background-color: rgb(40, 21, 7);
+    z-index: -10;
+    opacity: 80%;
+    border-radius: 30px;
 }

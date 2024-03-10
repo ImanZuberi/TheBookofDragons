@@ -1,5 +1,41 @@
 body{
     background-color:rgb(22, 73, 39);
+    background-image: url("../Images/rockbg.webp");
+    background-size: cover;
+    background-repeat: repeat; 
+    background-blend-mode:darken;
+}
+
+.home-button {
+        
+    display: block; 
+    margin: 20px; 
+    margin-left: -30px;
+    margin-top: 20px;
+}
+#home{
+height: 150px;
+width: auto;
+}
+#top{
+width: 100px;
+height:auto;
+}
+
+#empty {
+width: 2500px;
+height: auto;
+}
+
+#top2{
+width: 1250px;
+height:auto;
+}
+
+
+.beside{
+float: left;
+width: 10%;
 }
 
 
@@ -10,7 +46,7 @@ body{
     left:0;
     width:100%;
     height: 30px;
-    opacity: 30%;
+    opacity: 90%;
     transition:2s;
 }
 
@@ -22,24 +58,35 @@ body{
     src: url(../fonts2/Norse.Botf);
 }
 
+#ch {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 5px ;
+    color: antiquewhite;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
 header {
     text-align: center;
     font-size: 100px;
-    color: rgb(9, 40, 18);
+    color: rgb(29, 93, 47);
     margin-top: 30px;
     font-family: Norse;
 }
 
 #image1 {
     position: absolute;
-    margin-left: 380px;
+    margin-left: 280px;
     width: 100px; 
     height: auto; 
     margin-top: -110px;
 }
 #image2 {
     position: absolute;
-    margin-left: 950px;    
+    margin-left: 875px;    
     transform: scaleX(-1);
     transform: scaleY(-1);
     width: 100px;
@@ -61,28 +108,33 @@ header {
 }
 
 #h1{
-    font-size: 40px;
-    margin-left: 50px;
+    font-size: 60px;
+    margin-left: 30px;
     font-family: Norse;
+    color: rgb(8, 77, 8);
 }
 
 #glist {
     margin-left: 50px;
+    font-size: 25px;
     line-height: 15px;
+    font-family: "edding-780", sans-serif;
+    font-weight: 70;
+    font-style: normal;
 }
 
 #HZimg {
-    width: 700px;
+    width: 800px;
     height: auto;
-    margin-left: 70px;
-    margin-top: -150px;
+    margin-left: 30px;
+    margin-top: -200px;
 }
 
 #snapimg {
     width: 750px;
     height: auto;
     margin-left: 3px;
-    margin-top: -100px;
+    margin-top: -180px;
 }
 
 #h2{
@@ -109,11 +161,77 @@ header {
 #list3{
    margin-left:-35px ;
    text-align: center;
-list-style: none;
+    list-style: none;
+    font-family: "edding-780", sans-serif;
+    font-weight: 70;
+    font-style: normal;
+    font-size: 20px;
     
 }}
 
 #div2{
     background-color: rgb(0, 63, 7);
     width: 200px;
+}
+
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 100;}
+
+}
+
+.appear {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    top: 200px;
+    justify-content: center;
+    color: rgb(148, 165, 0);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -110px;
+    margin-right: 80px;
+    font-size: 36px;
+    font-family: Norse reg;
+    font-size: 45px;
+    font-family: "edding-780", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.disappear {
+    opacity: 0;
+}
+
+#block2 {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    height: 570px;
+    width: 1380px;
+    background-color: rgb(51, 52, 3);
+    z-index: -10;
+    opacity: 80%;
+    border-radius: 30px;
+}
+
+#block1 {
+    position: absolute;
+    top: 880px;
+    left: 30px;
+    height: 620px;
+    width: 1380px;
+    background-color: rgb(51, 52, 3);
+    z-index: -10;
+    opacity: 80%;
+    border-radius: 30px;
 }
