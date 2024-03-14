@@ -111,7 +111,7 @@ header {
     font-size: 60px;
     margin-left: 30px;
     font-family: Norse;
-    color: rgb(8, 77, 8);
+    color: rgb(12, 98, 12);
 }
 
 #glist {
@@ -121,6 +121,7 @@ header {
     font-family: "edding-780", sans-serif;
     font-weight: 70;
     font-style: normal;
+    color: rgb(229, 244, 237);
 }
 
 #HZimg {
@@ -147,7 +148,7 @@ header {
 
 .side-by-side {
     float: left;
-    width: 30%; /* Adjust the width as needed */
+    width: 30%; 
 
 #stats1{
     font-size: 20px;
@@ -170,7 +171,7 @@ header {
 }}
 
 #div2{
-    background-color: rgb(0, 63, 7);
+    background-color: rgb(30, 83, 36);
     width: 200px;
 }
 

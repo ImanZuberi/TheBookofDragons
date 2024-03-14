@@ -127,17 +127,17 @@ header {
 }
 
 #Skrillimg {
-    width: 500px;
+    width: 850px;
     height: auto;
-    margin-left: 200px;
-    margin-top: -100px;
+    margin-left: -50px;
+    margin-top: -200px;
 }
 
 #NightFuryimg {
-    width: 700px;
+    width: 900px;
     height: auto;
-    margin-left: 80px;
-    margin-top: -70px;
+    margin-left: -100px;
+    margin-top: 90px;
 }
 
 #h2{
@@ -230,7 +230,7 @@ header {
 
 #block1 {
     position: absolute;
-    top: 930px;
+    top: 950px;
     left: 30px;
     height: 660px;
     width: 1380px;
