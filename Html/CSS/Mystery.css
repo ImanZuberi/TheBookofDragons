@@ -66,6 +66,49 @@ width: 10%;
     font-family: "edding-780", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 25px;
+
+}
+
+
+.scroll-button {
+    display: inline-block;
+    padding: 30px 40px;
+    background-color: #292055;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 20px;
+    margin-left: 400px;
+    font-family: Norse;
+    font-size: 20px ;
+    margin-top: -20px;
+}
+
+.scroll-button:hover {
+    background-color: #19161f;
+}
+
+.scroll-button2 {
+    display: inline-block;
+    padding: 30px 40px;
+    background-color: #292055;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 20px;
+    margin-top: -99px;
+    margin-left: 780px;
+    font-family: Norse;
+    font-size: 20px ;
+}
+
+.scroll-button2:hover {
+    background-color: #19161f;
 }
 
 header {
@@ -121,13 +164,15 @@ header {
     font-family: "edding-780", sans-serif;
     font-weight: 70;
     font-style: normal;
+    color: rgb(169, 177, 198);
 }
 
 #Changeimg {
-    width: 800px;
+    width: 700px;
     height: auto;
-    margin-left: 0px;
-    margin-top: -100px;
+    margin-left: -15px;
+    margin-top: -70px;
+    z-index: -20;
 }
 
 
@@ -148,6 +193,7 @@ header {
 .side-by-side {
     float: left;
     width: 30%; 
+    margin-left:15px ;
 
 #stats1{
     font-size: 20px;
@@ -183,18 +229,18 @@ header {
     opacity: 0;
     animation-name: fadein;
     animation-duration: 1s;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     animation-fill-mode: forwards;
     position: fixed;
-    width: 100vw;
-    height: 100vh;
+    width: 90vw;
+    height: 90vh;
     text-align: center;
     top: 200px;
     justify-content: center;
     color: rgb(114, 127, 139);
     text-align: center;
     margin-top: 50px;
-    margin-left: -110px;
+    margin-left: -40px;
     margin-right: 80px;
     font-size: 45px;
     font-family: "edding-780", sans-serif;
@@ -210,7 +256,7 @@ header {
 
 #block2 {
     position: absolute;
-    top: 250px;
+    top: 270px;
     left: 30px;
     height: 670px;
     width: 1380px;
@@ -222,7 +268,7 @@ header {
 
 #block1 {
     position: absolute;
-    top: 1000px;
+    top: 955px;
     left: 30px;
     height: 650px;
     width: 1380px;
